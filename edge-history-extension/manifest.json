@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Time Machine History Manager",
+  "description": "Search and mass delete browser history by date, site, or text.",
+  "version": "1.0.0",
+  "permissions": ["history"],
+  "action": {
+    "default_title": "Time Machine"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
