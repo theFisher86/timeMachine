@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; margin: 10px; }
+#filters input { margin-right: 5px; }
+#actions { margin-top: 10px; }
+#results { width: 100%; border-collapse: collapse; margin-top: 10px; }
+#results th, #results td { border: 1px solid #ddd; padding: 4px; }
+#results th { background-color: #f2f2f2; }

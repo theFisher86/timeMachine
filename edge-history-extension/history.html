@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Time Machine History Manager</title>
+  <link rel="stylesheet" href="history.css">
+</head>
+<body>
+  <h1>History Manager</h1>
+  <div id="filters">
+    <input type="text" id="searchText" placeholder="Search text or URL (* wildcard)">
+    <input type="date" id="startDate">
+    <input type="date" id="endDate">
+    <button id="searchBtn">Search</button>
+  </div>
+  <div id="actions">
+    <button id="deleteSelected">Delete Selected</button>
+    <button id="deleteAll">Delete All</button>
+  </div>
+  <table id="results">
+    <thead>
+      <tr><th></th><th>Title</th><th>URL</th><th>Last Visit</th></tr>
+    </thead>
+    <tbody id="resultsBody"></tbody>
+  </table>
+  <script src="history.js"></script>
+</body>
+</html>
